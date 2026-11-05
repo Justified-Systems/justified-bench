@@ -2,6 +2,9 @@
 
 An empirical, zero-dependency hardware metrology harness and state invariant auditor for local LLM inference engines (including `justified_engine`, `llama.cpp`, and `Ollama`).
 
+> **Live Hardware Receipts & Baseline:**  
+> View our verified RTX 5050 baseline run and open community platform slots at [justified-systems.com/benchmarks](https://justified-systems.com/benchmarks).
+
 Operates entirely in pure Python 3 standard library with **zero external pip dependencies** (banning `pytest`, `psutil`, `torch`, and `numpy`). Hardware interrogation interfaces directly with OS kernel primitives (`kernel32/psapi`, `nvidia-smi`, `/proc`, and `sysctl`).
 
 ## Architecture & Test Taxonomy
